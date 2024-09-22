@@ -10,8 +10,9 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.myapplication.R
 import java.util.logging.Logger
 import android.util.Log
+import com.example.myapplication.Login.loginActivity
 
-class IntroActivity : AppCompatActivity() {
+class IntroActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro)
